@@ -1,0 +1,29 @@
+{
+  "schema_versao": 1,
+  "execucao": {
+    "id": "b7291f25-603b-4a8e-a5a1-3b0654737a90",
+    "gerado_em_utc": "2026-10-14T18:18:42Z",
+    "versao_aplicacao": "1.2.0",
+    "versao_python": "3.12.14",
+    "configuracoes": {
+      "catalogo_sha256": "dccd33d5340ae8f8a853e57c07c9cead295dee4615379770efba5dd94de36d5a",
+      "perfil_sha256": "a33a11f79784d9296e6b0ef1b27ed27ceb99385636c438c51a19e9d1e07d51f4",
+      "controle_sha256": "86b5745da063f135d91af18768c2ff23a703d0604546c4cf793c30af4aaad6ec"
+    }
+  },
+  "competencia": "2025-09",
+  "fontes": {
+    "analytics.csv": {
+      "sha256": "819d4c4473af297b91a2916eb258c3dabce4b2cbdc400bbff051bde1f9707b26",
+      "bytes": 624
+    },
+    "engenharia.xlsx": {
+      "sha256": "293e09951d8b3f625d90f6b23ef0cff8a5137370493033447eb05e7230dc7442",
+      "bytes": 6040
+    },
+    "operacoes.csv": {
+      "sha256": "471af3ccf942bb621787835044039cd3d694fdb1eef1e7882b03585645b6e053",
+      "bytes": 499
+    }
+  }
+}

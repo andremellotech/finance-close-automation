@@ -1,0 +1,19 @@
+{
+  "nome": "Fechamento mensal",
+  "entrada": {
+    "separador": ";",
+    "aba": "Lancamentos",
+    "colunas": {
+      "registro_id": "registro_id",
+      "data_competencia": "data_competencia",
+      "centro_custo": "centro_custo",
+      "categoria": "categoria",
+      "descricao": "descricao",
+      "valor_brl": "valor_brl"
+    },
+    "formato_data": "iso",
+    "decimal": ".",
+    "milhar": "",
+    "permitir_colunas_extras": false
+  }
+}

@@ -1,0 +1,19 @@
+﻿arquivo;aba;linha;registro_id;data_competencia;centro_custo;categoria;descricao;valor_brl;status;motivos;sha256_arquivo
+analytics.csv;CSV;2;ANA-001;2025-09-15;ANA;REV;Receita — exemplo fictício;200000.00;APROVADO;;a8bc72cab6686f94bfd0c33da53d4bf369c627eede3e98689913c1f05fe02f48
+analytics.csv;CSV;3;ANA-002;2025-09-15;ANA;DIR;Custos diretos — exemplo fictício;-50000.00;APROVADO;;a8bc72cab6686f94bfd0c33da53d4bf369c627eede3e98689913c1f05fe02f48
+analytics.csv;CSV;4;ANA-003;2025-09-15;ANA;PES;Pessoal — exemplo fictício;-60000.00;APROVADO;;a8bc72cab6686f94bfd0c33da53d4bf369c627eede3e98689913c1f05fe02f48
+analytics.csv;CSV;5;ANA-004;2025-09-15;ANA;TEC;Tecnologia — exemplo fictício;-15000.00;APROVADO;;a8bc72cab6686f94bfd0c33da53d4bf369c627eede3e98689913c1f05fe02f48
+analytics.csv;CSV;6;ANA-005;2025-09-15;ANA;COM;Comercial — exemplo fictício;-8000.00;APROVADO;;a8bc72cab6686f94bfd0c33da53d4bf369c627eede3e98689913c1f05fe02f48
+analytics.csv;CSV;7;ANA-006;2025-09-15;ANA;ADM;Administrativo — exemplo fictício;-7000.00;APROVADO;;a8bc72cab6686f94bfd0c33da53d4bf369c627eede3e98689913c1f05fe02f48
+engenharia.xlsx;Lancamentos;2;ENG-001;2025-09-15;ENG;REV;Receita — exemplo fictício;180000.00;APROVADO;;c1c1a1696e53655008f891558116c1524e07ff0fcc2d09f5212137bd2c9aadb3
+engenharia.xlsx;Lancamentos;3;ENG-002;2025-09-15;ENG;DIR;Custos diretos — exemplo fictício;-60000.00;APROVADO;;c1c1a1696e53655008f891558116c1524e07ff0fcc2d09f5212137bd2c9aadb3
+engenharia.xlsx;Lancamentos;4;ENG-003;2025-09-15;ENG;PES;Pessoal — exemplo fictício;-55000.00;APROVADO;;c1c1a1696e53655008f891558116c1524e07ff0fcc2d09f5212137bd2c9aadb3
+engenharia.xlsx;Lancamentos;5;ENG-004;2025-09-15;ENG;TEC;Tecnologia — exemplo fictício;-12000.00;APROVADO;;c1c1a1696e53655008f891558116c1524e07ff0fcc2d09f5212137bd2c9aadb3
+engenharia.xlsx;Lancamentos;6;ENG-005;2025-09-15;ENG;COM;Comercial — exemplo fictício;-9000.00;APROVADO;;c1c1a1696e53655008f891558116c1524e07ff0fcc2d09f5212137bd2c9aadb3
+engenharia.xlsx;Lancamentos;7;ENG-006;2025-09-15;ENG;ADM;Administrativo — exemplo fictício;-4000.00;APROVADO;;c1c1a1696e53655008f891558116c1524e07ff0fcc2d09f5212137bd2c9aadb3
+operacoes.csv;CSV;2;OPS-001;2025-09-15;OPS;REV;Receita — exemplo fictício;220000.00;APROVADO;;6473980937e40a02d60ee47b5c1a324c7a7efa307a0cc4e71d9b4a0a32eda869
+operacoes.csv;CSV;3;OPS-002;2025-09-15;OPS;DIR;Custos diretos — exemplo fictício;-75000.00;APROVADO;;6473980937e40a02d60ee47b5c1a324c7a7efa307a0cc4e71d9b4a0a32eda869
+operacoes.csv;CSV;4;OPS-003;2025-09-15;OPS;PES;Pessoal — exemplo fictício;-70000.00;APROVADO;;6473980937e40a02d60ee47b5c1a324c7a7efa307a0cc4e71d9b4a0a32eda869
+operacoes.csv;CSV;5;OPS-004;2025-09-15;OPS;TEC;Tecnologia — exemplo fictício;-14000.00;APROVADO;;6473980937e40a02d60ee47b5c1a324c7a7efa307a0cc4e71d9b4a0a32eda869
+operacoes.csv;CSV;6;OPS-005;2025-09-15;OPS;COM;Comercial — exemplo fictício;-11000.00;APROVADO;;6473980937e40a02d60ee47b5c1a324c7a7efa307a0cc4e71d9b4a0a32eda869
+operacoes.csv;CSV;7;OPS-006;2025-09-15;OPS;ADM;Administrativo — exemplo fictício;-5000.00;APROVADO;;6473980937e40a02d60ee47b5c1a324c7a7efa307a0cc4e71d9b4a0a32eda869

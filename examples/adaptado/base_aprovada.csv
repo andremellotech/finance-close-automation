@@ -1,0 +1,3 @@
+﻿arquivo;aba;linha;registro_id;data_competencia;centro_custo;categoria;descricao;valor_brl;status;motivos
+lancamentos.csv;CSV;2;0001;2026-02-15;SERV;FAT;Serviço fictício;1250.50;APROVADO;
+lancamentos.csv;CSV;3;0002;2026-02-15;SERV;CUS;;-250.50;APROVADO;

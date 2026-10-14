@@ -1,0 +1,9 @@
+registro_id;data_competencia;centro_custo;categoria;descricao;valor_brl
+ANA-001;2025-09-15;ANA;REV;Receita — exemplo fictício;200000.00
+ANA-002;2025-09-15;ANA;DIR;Custos diretos — exemplo fictício;-50000.00
+ANA-003;2025-09-15;XYZ;PES;Pessoal — exemplo fictício;-60000.00
+ANA-004;2025-09-15;ANA;TEC;Tecnologia — exemplo fictício;-15000.00
+ANA-005;2025-09-15;ANA;COM;Comercial — exemplo fictício;-8000.00
+ANA-006;2025-09-15;ANA;ADM;Administrativo — exemplo fictício;-7000.00
+;2025-09-15;ANA;REV;Receita — exemplo fictício;125.50
+ANA-001;2025-09-15;ANA;REV;Receita — exemplo fictício;200000.00

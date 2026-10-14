@@ -1,0 +1,8 @@
+{
+  "centros": {"SERV": "Serviços fictícios"},
+  "categorias": {
+    "FAT": {"nome": "Faturamento", "natureza": "receita", "sinal": "nao_negativo"},
+    "CUS": {"nome": "Custos", "natureza": "gasto", "sinal": "nao_positivo"}
+  },
+  "obrigatorios": ["registro_id", "data_competencia", "centro_custo", "categoria", "valor_brl"]
+}

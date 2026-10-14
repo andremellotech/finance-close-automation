@@ -1,0 +1,47 @@
+{
+  "centros": {
+    "ANA": "Analytics",
+    "ENG": "Engenharia",
+    "OPS": "Operações"
+  },
+  "categorias": {
+    "REV": {
+      "nome": "Receita",
+      "natureza": "receita",
+      "sinal": "nao_negativo"
+    },
+    "DIR": {
+      "nome": "Custos diretos",
+      "natureza": "gasto",
+      "sinal": "nao_positivo"
+    },
+    "PES": {
+      "nome": "Pessoal",
+      "natureza": "gasto",
+      "sinal": "nao_positivo"
+    },
+    "TEC": {
+      "nome": "Tecnologia",
+      "natureza": "gasto",
+      "sinal": "nao_positivo"
+    },
+    "COM": {
+      "nome": "Comercial",
+      "natureza": "gasto",
+      "sinal": "nao_positivo"
+    },
+    "ADM": {
+      "nome": "Administrativo",
+      "natureza": "gasto",
+      "sinal": "nao_positivo"
+    }
+  },
+  "obrigatorios": [
+    "registro_id",
+    "data_competencia",
+    "centro_custo",
+    "categoria",
+    "descricao",
+    "valor_brl"
+  ]
+}

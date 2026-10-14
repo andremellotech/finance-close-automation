@@ -1,0 +1,8 @@
+﻿arquivo;aba;linha;registro_id;data_competencia;centro_custo;categoria;descricao;valor_brl;status;motivos;acao_sugerida
+analytics.csv;CSV;4;ANA-003;2025-09-15;XYZ;PES;Pessoal — exemplo fictício;-60000.00;PENDENTE;CENTRO_DESCONHECIDO;"Confira o cadastro e o centro informado na origem; corrija o lançamento ou inclua um centro válido no catálogo."
+analytics.csv;CSV;8;;2025-09-15;ANA;REV;Receita — exemplo fictício;125.50;PENDENTE;CAMPO_VAZIO:registro_id;Preencha registro_id com a informação conferida na origem. Consulte o mapeamento do perfil para localizar sua coluna.
+analytics.csv;CSV;9;ANA-001;2025-09-15;ANA;REV;Receita — exemplo fictício;200000.00;DUPLICADO;DUPLICATA_EXATA;Confirme se houve reenvio duplicado e elimine a repetição na origem somente após a conferência.
+engenharia.xlsx;Lancamentos;2;ENG-001;2025-09-15;ENG;REV;Receita — exemplo fictício;180000.00;CONFLITO;CONFLITO_ID;Confira todas as versões desse ID na origem e resolva o conflito. Nenhuma versão é escolhida automaticamente.
+engenharia.xlsx;Lancamentos;5;ENG-004;2025-09-15;ENG;TEC;Tecnologia — exemplo fictício;valor inválido;PENDENTE;VALOR_INVALIDO;"Confira o valor na fonte e os separadores decimal/milhar do perfil. Use número com até duas casas; não substitua um valor desconhecido por zero."
+engenharia.xlsx;Lancamentos;8;ENG-001;2025-09-15;ENG;REV;Receita — exemplo fictício;180100.00;CONFLITO;CONFLITO_ID;Confira todas as versões desse ID na origem e resolva o conflito. Nenhuma versão é escolhida automaticamente.
+operacoes.csv;CSV;6;OPS-005;2025-08-15;OPS;COM;Comercial — exemplo fictício;-11000.00;PENDENTE;FORA_COMPETENCIA;"Confirme a qual mês o lançamento pertence. Não altere a data apenas para passar na regra; separe o lote correto ou informe a competência adequada."

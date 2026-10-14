@@ -1,0 +1,4 @@
+arquivo;linhas_esperadas;total_esperado_brl
+analytics.csv;6;60000.00
+engenharia.xlsx;6;40000.00
+operacoes.csv;6;45000.00

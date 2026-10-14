@@ -1,0 +1,21 @@
+{
+  "schema_versao": 1,
+  "execucao": {
+    "id": "4b63c56b-1b53-448f-af03-dcd018771a70",
+    "gerado_em_utc": "2026-10-14T18:18:42Z",
+    "versao_aplicacao": "1.2.0",
+    "versao_python": "3.12.14",
+    "configuracoes": {
+      "catalogo_sha256": "0e51d62a78be312927d094ba7625f469d3cc3585bb9dd0195d6df553640910cc",
+      "perfil_sha256": "e69d812ca22859133f3323b64c3c1b4f0a936d0d4538bb5a3fa9e3d3dd84dbb0",
+      "controle_sha256": "585e12048f140e83c1a16c6e3213530ac6ffd40334c6df3fe4ba135c64406428"
+    }
+  },
+  "competencia": "2026-02",
+  "fontes": {
+    "lancamentos.csv": {
+      "sha256": "0edd8c61fd572670dda87e5fc5fb916c60bcc71cbdb36ffa6479bf7ade03a4aa",
+      "bytes": 126
+    }
+  }
+}

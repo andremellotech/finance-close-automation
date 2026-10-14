@@ -1,0 +1,769 @@
+{
+  "competencia": "2025-09",
+  "liberado": false,
+  "resumo": {
+    "arquivos": 3,
+    "recebidas": 21,
+    "aprovadas": 14,
+    "pendentes": 4,
+    "duplicadas": 1,
+    "conflitos": 2,
+    "excluidas": 7,
+    "valores_nao_quantificaveis": 1,
+    "total_recebido_centavos": 53722550,
+    "total_aprovado_centavos": 4800000,
+    "total_excluido_centavos": 48922550,
+    "receitas_centavos": 42000000,
+    "gastos_centavos": 37200000
+  },
+  "linhas": [
+    {
+      "registro_id": "ANA-001",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ANA",
+      "categoria": "REV",
+      "descricao": "Receita — exemplo fictício",
+      "valor_brl": "200000.00",
+      "campos_origem": {
+        "registro_id": "ANA-001",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "ANA",
+        "categoria": "REV",
+        "descricao": "Receita — exemplo fictício",
+        "valor_brl": "200000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 2,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": 20000000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ANA-002",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ANA",
+      "categoria": "DIR",
+      "descricao": "Custos diretos — exemplo fictício",
+      "valor_brl": "-50000.00",
+      "campos_origem": {
+        "registro_id": "ANA-002",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "ANA",
+        "categoria": "DIR",
+        "descricao": "Custos diretos — exemplo fictício",
+        "valor_brl": "-50000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 3,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -5000000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ANA-003",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "XYZ",
+      "categoria": "PES",
+      "descricao": "Pessoal — exemplo fictício",
+      "valor_brl": "-60000.00",
+      "campos_origem": {
+        "registro_id": "ANA-003",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "XYZ",
+        "categoria": "PES",
+        "descricao": "Pessoal — exemplo fictício",
+        "valor_brl": "-60000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 4,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [
+        "CENTRO_DESCONHECIDO"
+      ],
+      "status": "PENDENTE",
+      "valor_centavos": -6000000,
+      "orientacoes": [
+        {
+          "codigo": "CENTRO_DESCONHECIDO",
+          "problema": "Centro de custo não cadastrado",
+          "acao": "Confira o cadastro e o centro informado na origem; corrija o lançamento ou inclua um centro válido no catálogo."
+        }
+      ]
+    },
+    {
+      "registro_id": "ANA-004",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ANA",
+      "categoria": "TEC",
+      "descricao": "Tecnologia — exemplo fictício",
+      "valor_brl": "-15000.00",
+      "campos_origem": {
+        "registro_id": "ANA-004",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "ANA",
+        "categoria": "TEC",
+        "descricao": "Tecnologia — exemplo fictício",
+        "valor_brl": "-15000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 5,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -1500000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ANA-005",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ANA",
+      "categoria": "COM",
+      "descricao": "Comercial — exemplo fictício",
+      "valor_brl": "-8000.00",
+      "campos_origem": {
+        "registro_id": "ANA-005",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "ANA",
+        "categoria": "COM",
+        "descricao": "Comercial — exemplo fictício",
+        "valor_brl": "-8000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 6,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -800000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ANA-006",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ANA",
+      "categoria": "ADM",
+      "descricao": "Administrativo — exemplo fictício",
+      "valor_brl": "-7000.00",
+      "campos_origem": {
+        "registro_id": "ANA-006",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "ANA",
+        "categoria": "ADM",
+        "descricao": "Administrativo — exemplo fictício",
+        "valor_brl": "-7000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 7,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -700000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ANA",
+      "categoria": "REV",
+      "descricao": "Receita — exemplo fictício",
+      "valor_brl": "125.50",
+      "campos_origem": {
+        "registro_id": "",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "ANA",
+        "categoria": "REV",
+        "descricao": "Receita — exemplo fictício",
+        "valor_brl": "125.50"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 8,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [
+        "CAMPO_VAZIO:registro_id"
+      ],
+      "status": "PENDENTE",
+      "valor_centavos": 12550,
+      "orientacoes": [
+        {
+          "codigo": "CAMPO_VAZIO:registro_id",
+          "problema": "Campo obrigatório vazio: registro_id",
+          "acao": "Preencha registro_id com a informação conferida na origem. Consulte o mapeamento do perfil para localizar sua coluna."
+        }
+      ]
+    },
+    {
+      "registro_id": "ANA-001",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ANA",
+      "categoria": "REV",
+      "descricao": "Receita — exemplo fictício",
+      "valor_brl": "200000.00",
+      "campos_origem": {
+        "registro_id": "ANA-001",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "ANA",
+        "categoria": "REV",
+        "descricao": "Receita — exemplo fictício",
+        "valor_brl": "200000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "analytics.csv",
+      "aba": "CSV",
+      "linha": 9,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [
+        "DUPLICATA_EXATA"
+      ],
+      "status": "DUPLICADO",
+      "valor_centavos": 20000000,
+      "orientacoes": [
+        {
+          "codigo": "DUPLICATA_EXATA",
+          "problema": "Repetição exata do lançamento",
+          "acao": "Confirme se houve reenvio duplicado e elimine a repetição na origem somente após a conferência."
+        }
+      ]
+    },
+    {
+      "registro_id": "ENG-001",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ENG",
+      "categoria": "REV",
+      "descricao": "Receita — exemplo fictício",
+      "valor_brl": "180000",
+      "campos_origem": {
+        "registro_id": "ENG-001",
+        "data_competencia": "2025-09-15T00:00:00",
+        "centro_custo": "ENG",
+        "categoria": "REV",
+        "descricao": "Receita — exemplo fictício",
+        "valor_brl": "180000"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "engenharia.xlsx",
+      "aba": "Lancamentos",
+      "linha": 2,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [
+        "CONFLITO_ID"
+      ],
+      "status": "CONFLITO",
+      "valor_centavos": 18000000,
+      "orientacoes": [
+        {
+          "codigo": "CONFLITO_ID",
+          "problema": "Mesmo ID com campos diferentes",
+          "acao": "Confira todas as versões desse ID na origem e resolva o conflito. Nenhuma versão é escolhida automaticamente."
+        }
+      ]
+    },
+    {
+      "registro_id": "ENG-002",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ENG",
+      "categoria": "DIR",
+      "descricao": "Custos diretos — exemplo fictício",
+      "valor_brl": "-60000",
+      "campos_origem": {
+        "registro_id": "ENG-002",
+        "data_competencia": "2025-09-15T00:00:00",
+        "centro_custo": "ENG",
+        "categoria": "DIR",
+        "descricao": "Custos diretos — exemplo fictício",
+        "valor_brl": "-60000"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "engenharia.xlsx",
+      "aba": "Lancamentos",
+      "linha": 3,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -6000000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ENG-003",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ENG",
+      "categoria": "PES",
+      "descricao": "Pessoal — exemplo fictício",
+      "valor_brl": "-55000",
+      "campos_origem": {
+        "registro_id": "ENG-003",
+        "data_competencia": "2025-09-15T00:00:00",
+        "centro_custo": "ENG",
+        "categoria": "PES",
+        "descricao": "Pessoal — exemplo fictício",
+        "valor_brl": "-55000"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "engenharia.xlsx",
+      "aba": "Lancamentos",
+      "linha": 4,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -5500000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ENG-004",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ENG",
+      "categoria": "TEC",
+      "descricao": "Tecnologia — exemplo fictício",
+      "valor_brl": "valor inválido",
+      "campos_origem": {
+        "registro_id": "ENG-004",
+        "data_competencia": "2025-09-15T00:00:00",
+        "centro_custo": "ENG",
+        "categoria": "TEC",
+        "descricao": "Tecnologia — exemplo fictício",
+        "valor_brl": "valor inválido"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": true,
+      "arquivo": "engenharia.xlsx",
+      "aba": "Lancamentos",
+      "linha": 5,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [
+        "VALOR_INVALIDO"
+      ],
+      "status": "PENDENTE",
+      "valor_centavos": null,
+      "orientacoes": [
+        {
+          "codigo": "VALOR_INVALIDO",
+          "problema": "Valor não quantificável",
+          "acao": "Confira o valor na fonte e os separadores decimal/milhar do perfil. Use número com até duas casas; não substitua um valor desconhecido por zero."
+        }
+      ]
+    },
+    {
+      "registro_id": "ENG-005",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ENG",
+      "categoria": "COM",
+      "descricao": "Comercial — exemplo fictício",
+      "valor_brl": "-9000",
+      "campos_origem": {
+        "registro_id": "ENG-005",
+        "data_competencia": "2025-09-15T00:00:00",
+        "centro_custo": "ENG",
+        "categoria": "COM",
+        "descricao": "Comercial — exemplo fictício",
+        "valor_brl": "-9000"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "engenharia.xlsx",
+      "aba": "Lancamentos",
+      "linha": 6,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -900000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ENG-006",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ENG",
+      "categoria": "ADM",
+      "descricao": "Administrativo — exemplo fictício",
+      "valor_brl": "-4000",
+      "campos_origem": {
+        "registro_id": "ENG-006",
+        "data_competencia": "2025-09-15T00:00:00",
+        "centro_custo": "ENG",
+        "categoria": "ADM",
+        "descricao": "Administrativo — exemplo fictício",
+        "valor_brl": "-4000"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "engenharia.xlsx",
+      "aba": "Lancamentos",
+      "linha": 7,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -400000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "ENG-001",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "ENG",
+      "categoria": "REV",
+      "descricao": "Receita — exemplo fictício",
+      "valor_brl": "180100",
+      "campos_origem": {
+        "registro_id": "ENG-001",
+        "data_competencia": "2025-09-15T00:00:00",
+        "centro_custo": "ENG",
+        "categoria": "REV",
+        "descricao": "Receita — exemplo fictício",
+        "valor_brl": "180100"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "engenharia.xlsx",
+      "aba": "Lancamentos",
+      "linha": 8,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [
+        "CONFLITO_ID"
+      ],
+      "status": "CONFLITO",
+      "valor_centavos": 18010000,
+      "orientacoes": [
+        {
+          "codigo": "CONFLITO_ID",
+          "problema": "Mesmo ID com campos diferentes",
+          "acao": "Confira todas as versões desse ID na origem e resolva o conflito. Nenhuma versão é escolhida automaticamente."
+        }
+      ]
+    },
+    {
+      "registro_id": "OPS-001",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "OPS",
+      "categoria": "REV",
+      "descricao": "Receita — exemplo fictício",
+      "valor_brl": "220000.00",
+      "campos_origem": {
+        "registro_id": "OPS-001",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "OPS",
+        "categoria": "REV",
+        "descricao": "Receita — exemplo fictício",
+        "valor_brl": "220000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "operacoes.csv",
+      "aba": "CSV",
+      "linha": 2,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": 22000000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "OPS-002",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "OPS",
+      "categoria": "DIR",
+      "descricao": "Custos diretos — exemplo fictício",
+      "valor_brl": "-75000.00",
+      "campos_origem": {
+        "registro_id": "OPS-002",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "OPS",
+        "categoria": "DIR",
+        "descricao": "Custos diretos — exemplo fictício",
+        "valor_brl": "-75000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "operacoes.csv",
+      "aba": "CSV",
+      "linha": 3,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -7500000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "OPS-003",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "OPS",
+      "categoria": "PES",
+      "descricao": "Pessoal — exemplo fictício",
+      "valor_brl": "-70000.00",
+      "campos_origem": {
+        "registro_id": "OPS-003",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "OPS",
+        "categoria": "PES",
+        "descricao": "Pessoal — exemplo fictício",
+        "valor_brl": "-70000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "operacoes.csv",
+      "aba": "CSV",
+      "linha": 4,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -7000000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "OPS-004",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "OPS",
+      "categoria": "TEC",
+      "descricao": "Tecnologia — exemplo fictício",
+      "valor_brl": "-14000.00",
+      "campos_origem": {
+        "registro_id": "OPS-004",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "OPS",
+        "categoria": "TEC",
+        "descricao": "Tecnologia — exemplo fictício",
+        "valor_brl": "-14000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "operacoes.csv",
+      "aba": "CSV",
+      "linha": 5,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -1400000,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "OPS-005",
+      "data_competencia": "2025-08-15",
+      "centro_custo": "OPS",
+      "categoria": "COM",
+      "descricao": "Comercial — exemplo fictício",
+      "valor_brl": "-11000.00",
+      "campos_origem": {
+        "registro_id": "OPS-005",
+        "data_competencia": "2025-08-15",
+        "centro_custo": "OPS",
+        "categoria": "COM",
+        "descricao": "Comercial — exemplo fictício",
+        "valor_brl": "-11000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "operacoes.csv",
+      "aba": "CSV",
+      "linha": 6,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [
+        "FORA_COMPETENCIA"
+      ],
+      "status": "PENDENTE",
+      "valor_centavos": -1100000,
+      "orientacoes": [
+        {
+          "codigo": "FORA_COMPETENCIA",
+          "problema": "Lançamento fora da competência",
+          "acao": "Confirme a qual mês o lançamento pertence. Não altere a data apenas para passar na regra; separe o lote correto ou informe a competência adequada."
+        }
+      ]
+    },
+    {
+      "registro_id": "OPS-006",
+      "data_competencia": "2025-09-15",
+      "centro_custo": "OPS",
+      "categoria": "ADM",
+      "descricao": "Administrativo — exemplo fictício",
+      "valor_brl": "-5000.00",
+      "campos_origem": {
+        "registro_id": "OPS-006",
+        "data_competencia": "2025-09-15",
+        "centro_custo": "OPS",
+        "categoria": "ADM",
+        "descricao": "Administrativo — exemplo fictício",
+        "valor_brl": "-5000.00"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "operacoes.csv",
+      "aba": "CSV",
+      "linha": 7,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -500000,
+      "orientacoes": []
+    }
+  ],
+  "conciliacao": [
+    {
+      "arquivo": "analytics.csv",
+      "linhas_recebidas": 8,
+      "linhas_esperadas": 6,
+      "total_recebido_centavos": 26012550,
+      "total_esperado_centavos": 6000000,
+      "valores_nao_quantificaveis": 0,
+      "diferenca_centavos": 20012550,
+      "status": "DIVERGENTE"
+    },
+    {
+      "arquivo": "engenharia.xlsx",
+      "linhas_recebidas": 7,
+      "linhas_esperadas": 6,
+      "total_recebido_centavos": 23210000,
+      "total_esperado_centavos": 4000000,
+      "valores_nao_quantificaveis": 1,
+      "diferenca_centavos": null,
+      "status": "INCOMPLETO"
+    },
+    {
+      "arquivo": "operacoes.csv",
+      "linhas_recebidas": 6,
+      "linhas_esperadas": 6,
+      "total_recebido_centavos": 4500000,
+      "total_esperado_centavos": 4500000,
+      "valores_nao_quantificaveis": 0,
+      "diferenca_centavos": 0,
+      "status": "CONCILIADO"
+    }
+  ],
+  "fontes": {
+    "analytics.csv": {
+      "sha256": "819d4c4473af297b91a2916eb258c3dabce4b2cbdc400bbff051bde1f9707b26",
+      "bytes": 624
+    },
+    "engenharia.xlsx": {
+      "sha256": "293e09951d8b3f625d90f6b23ef0cff8a5137370493033447eb05e7230dc7442",
+      "bytes": 6040
+    },
+    "operacoes.csv": {
+      "sha256": "471af3ccf942bb621787835044039cd3d694fdb1eef1e7882b03585645b6e053",
+      "bytes": 499
+    }
+  },
+  "catalogo": {
+    "centros": {
+      "ANA": "Analytics",
+      "ENG": "Engenharia",
+      "OPS": "Operações"
+    },
+    "categorias": {
+      "REV": {
+        "nome": "Receita",
+        "natureza": "receita",
+        "sinal": "nao_negativo"
+      },
+      "DIR": {
+        "nome": "Custos diretos",
+        "natureza": "gasto",
+        "sinal": "nao_positivo"
+      },
+      "PES": {
+        "nome": "Pessoal",
+        "natureza": "gasto",
+        "sinal": "nao_positivo"
+      },
+      "TEC": {
+        "nome": "Tecnologia",
+        "natureza": "gasto",
+        "sinal": "nao_positivo"
+      },
+      "COM": {
+        "nome": "Comercial",
+        "natureza": "gasto",
+        "sinal": "nao_positivo"
+      },
+      "ADM": {
+        "nome": "Administrativo",
+        "natureza": "gasto",
+        "sinal": "nao_positivo"
+      }
+    },
+    "obrigatorios": [
+      "registro_id",
+      "data_competencia",
+      "centro_custo",
+      "categoria",
+      "descricao",
+      "valor_brl"
+    ]
+  },
+  "demonstrativo": true,
+  "perfil_entrada": {
+    "nome": "Fechamento mensal",
+    "entrada": {
+      "separador": ";",
+      "aba": "Lancamentos",
+      "colunas": {
+        "registro_id": "registro_id",
+        "data_competencia": "data_competencia",
+        "centro_custo": "centro_custo",
+        "categoria": "categoria",
+        "descricao": "descricao",
+        "valor_brl": "valor_brl"
+      },
+      "formato_data": "iso",
+      "decimal": ".",
+      "milhar": "",
+      "permitir_colunas_extras": false
+    }
+  },
+  "schema_versao": 1,
+  "execucao": {
+    "id": "b7291f25-603b-4a8e-a5a1-3b0654737a90",
+    "gerado_em_utc": "2026-10-14T18:18:42Z",
+    "versao_aplicacao": "1.2.0",
+    "versao_python": "3.12.14",
+    "configuracoes": {
+      "catalogo_sha256": "dccd33d5340ae8f8a853e57c07c9cead295dee4615379770efba5dd94de36d5a",
+      "perfil_sha256": "a33a11f79784d9296e6b0ef1b27ed27ceb99385636c438c51a19e9d1e07d51f4",
+      "controle_sha256": "86b5745da063f135d91af18768c2ff23a703d0604546c4cf793c30af4aaad6ec"
+    }
+  }
+}

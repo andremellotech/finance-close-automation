@@ -1,0 +1,2 @@
+﻿arquivo;linhas_recebidas;linhas_esperadas;total_recebido_brl;total_esperado_brl;diferenca_brl;valores_nao_quantificaveis;status
+lancamentos.csv;2;2;1000.00;1000.00;0.00;0;CONCILIADO

@@ -1,0 +1,148 @@
+{
+  "competencia": "2026-02",
+  "liberado": true,
+  "resumo": {
+    "arquivos": 1,
+    "recebidas": 2,
+    "aprovadas": 2,
+    "pendentes": 0,
+    "duplicadas": 0,
+    "conflitos": 0,
+    "excluidas": 0,
+    "valores_nao_quantificaveis": 0,
+    "total_recebido_centavos": 100000,
+    "total_aprovado_centavos": 100000,
+    "total_excluido_centavos": 0,
+    "receitas_centavos": 125050,
+    "gastos_centavos": 25050
+  },
+  "linhas": [
+    {
+      "registro_id": "0001",
+      "data_competencia": "2026-02-15",
+      "centro_custo": "SERV",
+      "categoria": "FAT",
+      "descricao": "Serviço fictício",
+      "valor_brl": "1250.50",
+      "campos_origem": {
+        "registro_id": "0001",
+        "data_competencia": "15/02/2026",
+        "centro_custo": "SERV",
+        "categoria": "FAT",
+        "descricao": "Serviço fictício",
+        "valor_brl": "1.250,50"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "lancamentos.csv",
+      "aba": "CSV",
+      "linha": 2,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": 125050,
+      "orientacoes": []
+    },
+    {
+      "registro_id": "0002",
+      "data_competencia": "2026-02-15",
+      "centro_custo": "SERV",
+      "categoria": "CUS",
+      "descricao": "",
+      "valor_brl": "-250.50",
+      "campos_origem": {
+        "registro_id": "0002",
+        "data_competencia": "15/02/2026",
+        "centro_custo": "SERV",
+        "categoria": "CUS",
+        "descricao": "",
+        "valor_brl": "-250,50"
+      },
+      "_input_errors": [],
+      "_valor_formato_invalido": false,
+      "arquivo": "lancamentos.csv",
+      "aba": "CSV",
+      "linha": 3,
+      "_formula": false,
+      "_excel_errors": [],
+      "erros": [],
+      "status": "APROVADO",
+      "valor_centavos": -25050,
+      "orientacoes": []
+    }
+  ],
+  "conciliacao": [
+    {
+      "arquivo": "lancamentos.csv",
+      "linhas_recebidas": 2,
+      "linhas_esperadas": 2,
+      "total_recebido_centavos": 100000,
+      "total_esperado_centavos": 100000,
+      "valores_nao_quantificaveis": 0,
+      "diferenca_centavos": 0,
+      "status": "CONCILIADO"
+    }
+  ],
+  "fontes": {
+    "lancamentos.csv": {
+      "sha256": "0edd8c61fd572670dda87e5fc5fb916c60bcc71cbdb36ffa6479bf7ade03a4aa",
+      "bytes": 126
+    }
+  },
+  "catalogo": {
+    "centros": {
+      "SERV": "Serviços fictícios"
+    },
+    "categorias": {
+      "FAT": {
+        "nome": "Faturamento",
+        "natureza": "receita",
+        "sinal": "nao_negativo"
+      },
+      "CUS": {
+        "nome": "Custos",
+        "natureza": "gasto",
+        "sinal": "nao_positivo"
+      }
+    },
+    "obrigatorios": [
+      "registro_id",
+      "data_competencia",
+      "centro_custo",
+      "categoria",
+      "valor_brl"
+    ]
+  },
+  "perfil_entrada": {
+    "nome": "Fechamento de serviços — exemplo adaptado",
+    "entrada": {
+      "separador": ";",
+      "aba": "Dados",
+      "colunas": {
+        "registro_id": "ID",
+        "data_competencia": "Data",
+        "centro_custo": "Centro",
+        "categoria": "Conta",
+        "descricao": "Descrição",
+        "valor_brl": "Valor"
+      },
+      "formato_data": "br",
+      "decimal": ",",
+      "milhar": ".",
+      "permitir_colunas_extras": false
+    }
+  },
+  "schema_versao": 1,
+  "execucao": {
+    "id": "4b63c56b-1b53-448f-af03-dcd018771a70",
+    "gerado_em_utc": "2026-10-14T18:18:42Z",
+    "versao_aplicacao": "1.2.0",
+    "versao_python": "3.12.14",
+    "configuracoes": {
+      "catalogo_sha256": "0e51d62a78be312927d094ba7625f469d3cc3585bb9dd0195d6df553640910cc",
+      "perfil_sha256": "e69d812ca22859133f3323b64c3c1b4f0a936d0d4538bb5a3fa9e3d3dd84dbb0",
+      "controle_sha256": "585e12048f140e83c1a16c6e3213530ac6ffd40334c6df3fe4ba135c64406428"
+    }
+  }
+}

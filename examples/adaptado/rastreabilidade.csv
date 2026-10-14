@@ -1,0 +1,3 @@
+﻿arquivo;aba;linha;registro_id;data_competencia;centro_custo;categoria;descricao;valor_brl;status;motivos;sha256_arquivo
+lancamentos.csv;CSV;2;0001;2026-02-15;SERV;FAT;Serviço fictício;1250.50;APROVADO;;0edd8c61fd572670dda87e5fc5fb916c60bcc71cbdb36ffa6479bf7ade03a4aa
+lancamentos.csv;CSV;3;0002;2026-02-15;SERV;CUS;;-250.50;APROVADO;;0edd8c61fd572670dda87e5fc5fb916c60bcc71cbdb36ffa6479bf7ade03a4aa

@@ -1,0 +1,20 @@
+﻿registro_id;referencia_sem_id;tipo;linhas_antes;linhas_depois;aprovado_antes_brl;aprovado_depois_brl;origens_antes;origens_depois;campos_alterados
+ANA-001;;PENDENCIA_RESOLVIDA;2;1;200000.00;200000.00;analytics.csv / CSV / linha 2 | analytics.csv / CSV / linha 9;analytics.csv / CSV / linha 2;status, quantidade_linhas
+ANA-002;;SEM_ALTERACAO;1;1;-50000.00;-50000.00;analytics.csv / CSV / linha 3;analytics.csv / CSV / linha 3;
+ANA-003;;PENDENCIA_RESOLVIDA;1;1;0.00;-60000.00;analytics.csv / CSV / linha 4;analytics.csv / CSV / linha 4;centro_custo, status
+ANA-004;;SEM_ALTERACAO;1;1;-15000.00;-15000.00;analytics.csv / CSV / linha 5;analytics.csv / CSV / linha 5;
+ANA-005;;SEM_ALTERACAO;1;1;-8000.00;-8000.00;analytics.csv / CSV / linha 6;analytics.csv / CSV / linha 6;
+ANA-006;;SEM_ALTERACAO;1;1;-7000.00;-7000.00;analytics.csv / CSV / linha 7;analytics.csv / CSV / linha 7;
+ENG-001;;PENDENCIA_RESOLVIDA;2;1;0.00;180000.00;engenharia.xlsx / Lancamentos / linha 2 | engenharia.xlsx / Lancamentos / linha 8;engenharia.xlsx / Lancamentos / linha 2;valor_brl, status, quantidade_linhas
+ENG-002;;SEM_ALTERACAO;1;1;-60000.00;-60000.00;engenharia.xlsx / Lancamentos / linha 3;engenharia.xlsx / Lancamentos / linha 3;
+ENG-003;;SEM_ALTERACAO;1;1;-55000.00;-55000.00;engenharia.xlsx / Lancamentos / linha 4;engenharia.xlsx / Lancamentos / linha 4;
+ENG-004;;PENDENCIA_RESOLVIDA;1;1;0.00;-12000.00;engenharia.xlsx / Lancamentos / linha 5;engenharia.xlsx / Lancamentos / linha 5;valor_brl, status
+ENG-005;;SEM_ALTERACAO;1;1;-9000.00;-9000.00;engenharia.xlsx / Lancamentos / linha 6;engenharia.xlsx / Lancamentos / linha 6;
+ENG-006;;SEM_ALTERACAO;1;1;-4000.00;-4000.00;engenharia.xlsx / Lancamentos / linha 7;engenharia.xlsx / Lancamentos / linha 7;
+OPS-001;;SEM_ALTERACAO;1;1;220000.00;220000.00;operacoes.csv / CSV / linha 2;operacoes.csv / CSV / linha 2;
+OPS-002;;SEM_ALTERACAO;1;1;-75000.00;-75000.00;operacoes.csv / CSV / linha 3;operacoes.csv / CSV / linha 3;
+OPS-003;;SEM_ALTERACAO;1;1;-70000.00;-70000.00;operacoes.csv / CSV / linha 4;operacoes.csv / CSV / linha 4;
+OPS-004;;SEM_ALTERACAO;1;1;-14000.00;-14000.00;operacoes.csv / CSV / linha 5;operacoes.csv / CSV / linha 5;
+OPS-005;;PENDENCIA_RESOLVIDA;1;1;0.00;-11000.00;operacoes.csv / CSV / linha 6;operacoes.csv / CSV / linha 6;data_competencia, status
+OPS-006;;SEM_ALTERACAO;1;1;-5000.00;-5000.00;operacoes.csv / CSV / linha 7;operacoes.csv / CSV / linha 7;
+;analytics.csv · CSV · 8;REMOVIDO;1;0;0.00;0.00;analytics.csv / CSV / linha 8;;

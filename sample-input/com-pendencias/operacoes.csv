@@ -1,0 +1,7 @@
+registro_id;data_competencia;centro_custo;categoria;descricao;valor_brl
+OPS-001;2025-09-15;OPS;REV;Receita — exemplo fictício;220000.00
+OPS-002;2025-09-15;OPS;DIR;Custos diretos — exemplo fictício;-75000.00
+OPS-003;2025-09-15;OPS;PES;Pessoal — exemplo fictício;-70000.00
+OPS-004;2025-09-15;OPS;TEC;Tecnologia — exemplo fictício;-14000.00
+OPS-005;2025-08-15;OPS;COM;Comercial — exemplo fictício;-11000.00
+OPS-006;2025-09-15;OPS;ADM;Administrativo — exemplo fictício;-5000.00

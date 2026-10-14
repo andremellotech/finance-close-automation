@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Automação demonstrativa do fechamento mensal: qualidade de dados, conciliação e rastreabilidade com Python, Excel e CSV.">
+  <title>__PAGE_TITLE__</title>
+  <style>__CSS__</style>
+</head>
+<body>
+<a class="skip" href="#panel">Ir para o relatório</a>
+<header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true">fc<span>↗</span></span><span>FINANCE CLOSE <b>AUTOMATION</b></span></div><nav aria-label="Links do projeto"><a href="#como-usar">Como usar</a><a href="https://github.com/andremellotech/finance-close-automation">GitHub ↗</a><a href="https://www.linkedin.com/in/aamello/">André Mello ↗</a></nav></header>
+<main>
+  <section class="intro" aria-labelledby="page-title"><div><div class="eyebrow"><span></span> PYTHON + EXCEL + CSV <span class="dot">/</span> CONFERÊNCIA</div><h1 id="page-title">__HERO__</h1><p>__LEAD__</p></div><aside class="intro-note"><span class="mini-label">__CASE_CAPTION__</span><strong>__PERIOD__</strong><p>__INPUT_NOTE__</p><div class="note-line"><span class="small-dot"></span> Resultados gerados pelo motor Python</div></aside></section>
+  <section class="case-bar" aria-label="Contexto do relatório"><div><span class="mini-label">__CASE_HEADING__</span><p>__CASE_NOTE__</p></div><div class="case-switch" role="group" aria-label="Exemplo demonstrativo">__CASE_SWITCH__</div></section>
+  __COMPARISON_LINK__
+  <div id="case-status" class="case-status" aria-live="polite"></div>
+  <section id="steps" class="steps" aria-label="Etapas do fechamento"></section>
+  <section id="kpis" class="kpis" aria-label="Indicadores do lote"></section>
+  <div class="workspace-head"><div role="tablist" aria-label="Perspectivas do fechamento"><button id="tab-overview" type="button" role="tab" aria-controls="panel" aria-selected="true" data-view="overview">Visão geral</button><button id="tab-issues" type="button" role="tab" aria-controls="panel" aria-selected="false" data-view="issues">Pendências</button><button id="tab-controls" type="button" role="tab" aria-controls="panel" aria-selected="false" data-view="controls">Conciliação</button><button id="tab-trace" type="button" role="tab" aria-controls="panel" aria-selected="false" data-view="trace">Rastreabilidade</button></div><a class="button download" id="excel-download" href="__EXCEL_PATH__" download>↓ Baixar Excel</a></div>
+  <section id="panel" role="tabpanel" aria-labelledby="tab-overview" tabindex="0"></section>
+  <details id="execution-meta" class="guide"></details>
+  <details id="como-usar" class="guide"><summary><span>Como usar este projeto</span><span class="guide-hint">Demonstração e execução local</span></summary><div class="guide-body"><div><span class="step-no">01</span><h3>Explore os resultados</h3><p>Percorra as quatro perspectivas. Os filtros alteram as tabelas; os indicadores descrevem o lote completo.</p></div><div><span class="step-no">02</span><h3>Execute a rotina</h3><p>No projeto extraído, instale as dependências e execute o comando abaixo. Use uma pasta de saída vazia.</p><pre>python -m pip install -r requirements.txt
+python -m finance_close run --input sample-input/validado --controls config/controle.csv --period 2025-09 --output local-output/meu-fechamento</pre></div><div><span class="step-no">03</span><h3>Confira as entregas</h3><p>A rotina gera base aprovada, pendências, conciliação, rastreabilidade, JSON, Excel e HTML. O retorno 0 indica validado; 2 indica pendências; 1 indica erro na execução.</p><p class="muted">__GUIDE_NOTE__</p></div></div></details>
+  <footer><div><strong>André Mello</strong><span>Performance, dados e automação</span></div><p>Finance Close Automation · v1.2.0<br>__FOOTNOTE__</p><a href="https://github.com/andremellotech/financial-performance-analytics">Conheça o projeto de análise financeira ↗</a></footer>
+</main>
+<script type="application/json" id="demo-data">__DATA__</script>
+<script type="application/json" id="report-context">__CONTEXT__</script>
+<script>__JS__</script>
+</body>
+</html>

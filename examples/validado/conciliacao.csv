@@ -1,0 +1,4 @@
+﻿arquivo;linhas_recebidas;linhas_esperadas;total_recebido_brl;total_esperado_brl;diferenca_brl;valores_nao_quantificaveis;status
+analytics.csv;6;6;60000.00;60000.00;0.00;0;CONCILIADO
+engenharia.xlsx;6;6;40000.00;40000.00;0.00;0;CONCILIADO
+operacoes.csv;6;6;45000.00;45000.00;0.00;0;CONCILIADO

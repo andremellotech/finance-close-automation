@@ -1,0 +1,4 @@
+﻿arquivo;linhas_recebidas;linhas_esperadas;total_recebido_brl;total_esperado_brl;diferenca_brl;valores_nao_quantificaveis;status
+analytics.csv;8;6;260125.50;60000.00;200125.50;0;DIVERGENTE
+engenharia.xlsx;7;6;232100.00;40000.00;;1;INCOMPLETO
+operacoes.csv;6;6;45000.00;45000.00;0.00;0;CONCILIADO

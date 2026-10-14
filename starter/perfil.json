@@ -1,0 +1,19 @@
+{
+  "nome": "Fechamento de serviços — exemplo adaptado",
+  "entrada": {
+    "separador": ";",
+    "aba": "Dados",
+    "colunas": {
+      "registro_id": "ID",
+      "data_competencia": "Data",
+      "centro_custo": "Centro",
+      "categoria": "Conta",
+      "descricao": "Descrição",
+      "valor_brl": "Valor"
+    },
+    "formato_data": "br",
+    "decimal": ",",
+    "milhar": ".",
+    "permitir_colunas_extras": false
+  }
+}
